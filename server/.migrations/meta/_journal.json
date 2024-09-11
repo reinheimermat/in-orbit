@@ -8,6 +8,13 @@
       "when": 1726083531808,
       "tag": "0000_same_wasp",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726084015711,
+      "tag": "0001_living_blizzard",
+      "breakpoints": true
     }
   ]
 }
