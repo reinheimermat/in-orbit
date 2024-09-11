@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx --env-file .env watch src/http/server.ts"
+    "dev": "tsx --env-file .env watch src/http/server.ts",
+    "seed": "tsx --env-file .env src/db/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,9 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
+    "dayjs": "^1.11.13",
     "drizzle-orm": "^0.33.0",
+    "env": "^0.0.2",
     "eslint": "8",
     "fastify": "^4.28.1",
     "postgres": "^3.4.4",
