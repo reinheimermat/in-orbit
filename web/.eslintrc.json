@@ -1,4 +1,4 @@
 {
-  "extends": "@rocketseat/eslint-config/react",
-  "ignorePatterns": "*.json"
+  "extends": ["@rocketseat/eslint-config/react"],
+  "ignorePatterns": ["*.json", "*.html"]
 }
