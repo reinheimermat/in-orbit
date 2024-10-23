@@ -26,8 +26,6 @@ export function Summary() {
     ? Math.round(data?.completed * 100) / data?.total
     : 0
 
-  console.log(data)
-
   return (
     <div className="py-10 max-w-[480px] px-5 mx-auto flex flex-col gap-6">
       <div className="flex items-center justify-between">
@@ -61,7 +59,7 @@ export function Summary() {
             <span className="text-zinc-100">{data?.total}</span> metas nessa
             semana.
           </span>
-          <span>{completedPorcentage}%</span>
+          <span>{Math.floor(completedPorcentage)}%</span>
         </div>
 
         <Separator />

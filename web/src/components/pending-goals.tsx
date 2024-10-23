@@ -21,6 +21,8 @@ export function PendingGoals() {
     await createGoalCompletion(goalId)
 
     queryClient.invalidateQueries({ queryKey: ['summary'] })
+
+    queryClient.invalidateQueries({ queryKey: ['pending-goals'] })
   }
 
   return (
