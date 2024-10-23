@@ -56,19 +56,19 @@ http://localhost:5173/
 git clone https://github.com/reinheimermat/planner-api
 cd planner-api/server
 ```
-### 2. Config envoriments
+#### 2. Config envoriments
 Rename the file **.env.example** to **.env**
 
-### 3. Install dependencies
+#### 3. Install dependencies
 ```sh
 pnpm run dev
 ```
-### 4. Run docker
+#### 4. Run docker
 ```sh
 docker compose up -d 
 ```
 
-### 5. Run the project
+#### 5. Run the project
 ```sh
 pnpm run dev
 ```
