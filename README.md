@@ -1,7 +1,7 @@
 # In.orbit | Project of NLW Pocket
 [![Banner](./web/public/in-orbit.png)](#)
 
-With the **Plann.er**, you can create travel plans, invite friends and write down activities to perform during the trip!
+**In.orbit** is a complete web application for managing your goals. The front-end was built with React JS, Javascript, Tailwind CSS, HTML and Typescript. In addition to several modern libs.
 
 > Status: Finished... ✅
 
